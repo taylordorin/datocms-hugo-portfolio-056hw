@@ -4,6 +4,12 @@ This repo contains a working static website written with [Hugo](http://gohugo.io
 
 ## Usage
 
+NODE ssue was corrected using this:
+
+```
+npm install -g win-node-env
+```
+
 First, install the dependencies of this project:
 
 ```

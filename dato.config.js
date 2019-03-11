@@ -62,6 +62,7 @@ module.exports = (dato, root, i18n) => {
     frontmatter: {
       title: dato.aboutPage.title,
       subtitle: dato.aboutPage.subtitle,
+      synopsys: dato.aboutPage.synopsys,
       photo: dato.aboutPage.photo.url({ w: 800, fm: 'jpg', auto: 'compress' }),
       seoMetaTags: toHtml(dato.aboutPage.seoMetaTags),
       menu: { main: { weight: 100 } }
